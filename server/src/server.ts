@@ -14,16 +14,13 @@ const app = express();
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-app.use(routes);
 
 if (process.env.NODE_ENV === 'production') {
-  app.use(express.static(path.join(__dirname, '../client/dist')));
-
-   app.get('*', (_req, res) => {
-    res.sendFile(path.join(__dirname, '../client/dist/index.html'));
-  });
+  app.use(express.static(path.join(__dirname, '../../client/dist')));
+    
 }
 
+app.use(routes);
 app.listen(PORT, () => {
   console.log(`API server running on port ${PORT}!`);
 });
