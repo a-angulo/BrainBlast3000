@@ -1,10 +1,13 @@
 # 🧠 BrainBlast 3000 – Full-Stack Quiz App with Testing Superpowers ⚡️  
 **BrainBlast 3000** is a tech quiz app designed to challenge your knowledge — and back it up with **full-stack testing** using **Cypress**. Built with React, TypeScript, Node.js, Express, and MongoDB, this app not only quizzes users but also tests itself, so your logic stays sharp and bug-free.  
 ---
+
 ![license-badge](https://img.shields.io/badge/license-MIT-blue.svg)  
 
 ---
-🔗 **Live Demo:** [https://brainblast3000.onrender.com](https://brainblast3000.onrender.com)  
+🔗 **Live Demo:** [https://brainblast3000.onrender.com](https://brainblast3000.onrender.com) 
+ 🧪**Testing Demo:** [https://drive.google.com/file/d/1WdCbR-cLFbbWsZSn7d13gRRTo8VFbKWg](https://drive.google.com/file/d/1WdCbR-cLFbbWsZSn7d13gRRTo8VFbKWg/)
+
 ---
 
 ## 📚 Table of Contents  
@@ -131,4 +134,3 @@ You’re free to use, modify, and distribute — just keep credit intact.
 - 🎓 **Xpert Learning** – for full-stack education done right  
 
 > Built with 💥 and `npm test` by the **BrainBlast Squad**
-Paste this whole block into your README.md in VSCode and you're g
